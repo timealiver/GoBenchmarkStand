@@ -1,0 +1,8 @@
+﻿goos: windows
+goarch: amd64
+pkg: gostand/bench
+cpu: AMD Ryzen 5 5500U with Radeon Graphics         
+BenchmarkHandlers/V1_Baseline/1k-12      	     380	   3151897 ns/op	  45.65 MB/s	  846105 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     418	   2755536 ns/op	  52.22 MB/s	  846096 B/op	    6823 allocs/op
+PASS
+ok  	gostand/bench	3.946s

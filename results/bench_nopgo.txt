@@ -1,0 +1,46 @@
+﻿goos: windows
+goarch: amd64
+pkg: gostand/bench
+cpu: AMD Ryzen 5 5500U with Radeon Graphics         
+BenchmarkHandlers/V1_Baseline/1k-12      	     416	   2901544 ns/op	  49.59 MB/s	  846111 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     411	   3350063 ns/op	  42.95 MB/s	  846091 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     392	   3204779 ns/op	  44.90 MB/s	  846106 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     394	   3164123 ns/op	  45.48 MB/s	  846116 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     440	   3141903 ns/op	  45.80 MB/s	  846093 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     421	   2904775 ns/op	  49.54 MB/s	  846098 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     426	   2773219 ns/op	  51.89 MB/s	  846085 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     412	   2808897 ns/op	  51.23 MB/s	  846091 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     432	   2865875 ns/op	  50.21 MB/s	  846102 B/op	    6823 allocs/op
+BenchmarkHandlers/V1_Baseline/1k-12      	     424	   2815982 ns/op	  51.10 MB/s	  846103 B/op	    6823 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     488	   2500403 ns/op	  57.55 MB/s	   68837 B/op	    4540 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     549	   2232655 ns/op	  64.45 MB/s	   68715 B/op	    4539 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     537	   2184706 ns/op	  65.87 MB/s	   68698 B/op	    4539 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     552	   2344764 ns/op	  61.37 MB/s	   68733 B/op	    4539 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     543	   2291446 ns/op	  62.80 MB/s	   69274 B/op	    4543 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     512	   2289975 ns/op	  62.84 MB/s	   68802 B/op	    4539 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     511	   2294513 ns/op	  62.71 MB/s	   68767 B/op	    4539 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     518	   2188484 ns/op	  65.75 MB/s	   68722 B/op	    4539 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     495	   2222244 ns/op	  64.75 MB/s	   68770 B/op	    4539 allocs/op
+BenchmarkHandlers/V2_Pools/1k-12         	     541	   2203089 ns/op	  65.32 MB/s	   68750 B/op	    4539 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     454	   2631701 ns/op	  54.68 MB/s	  316719 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     458	   2651593 ns/op	  54.27 MB/s	  316045 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     452	   2819364 ns/op	  51.04 MB/s	  316051 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     459	   2868792 ns/op	  50.16 MB/s	  316331 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     438	   2649981 ns/op	  54.30 MB/s	  316167 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     436	   2702219 ns/op	  53.25 MB/s	  316187 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     457	   2843160 ns/op	  50.61 MB/s	  316051 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     452	   2616606 ns/op	  54.99 MB/s	  316114 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     451	   2650625 ns/op	  54.29 MB/s	  316044 B/op	    6809 allocs/op
+BenchmarkHandlers/V3_Flat/1k-12          	     452	   2646396 ns/op	  54.37 MB/s	  316070 B/op	    6809 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2121	    576049 ns/op	 249.80 MB/s	  216553 B/op	      46 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2244	    536357 ns/op	 268.29 MB/s	  217464 B/op	      46 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2318	    528748 ns/op	 272.15 MB/s	  216827 B/op	      47 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2294	    546013 ns/op	 263.54 MB/s	  218027 B/op	      44 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2074	    557726 ns/op	 258.01 MB/s	  216684 B/op	      42 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2097	    530090 ns/op	 271.46 MB/s	  218797 B/op	      46 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2232	    536224 ns/op	 268.35 MB/s	  219393 B/op	      47 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2152	    517808 ns/op	 277.90 MB/s	  218179 B/op	      47 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2308	    634672 ns/op	 226.73 MB/s	  219625 B/op	      50 allocs/op
+BenchmarkHandlers/V4_Sonic/1k-12         	    2118	    516343 ns/op	 278.68 MB/s	  218316 B/op	      48 allocs/op
+PASS
+ok  	gostand/bench	60.144s

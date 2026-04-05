@@ -1,0 +1,9 @@
+.git
+results
+bin
+*.exe
+*.test
+*.prof
+bench/payloads/*.json
+pgo/cpu
+.DS_Store
